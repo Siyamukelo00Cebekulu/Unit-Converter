@@ -80,14 +80,14 @@ unit-converter/
 ```
 ---
 
-## How the Application Works
+## ▶🖥️How the Application Works
 
-1. The user selects a conversion category:
+1. The user🧑‍💻 selects a conversion category:
     - Length
     - Weight
     - Temperature
-2. The user enters a numeric value.
-3. The user selects:
+2. The user🧑‍💻 enters a numeric value.
+3. Theuser🧑‍💻 selects:
     - Unit to convert from
     - Unit to convert to
 4. When the form is submitted:
@@ -106,6 +106,20 @@ unit-converter/
 - ![JavaScript](https://img.shields.io/badge/JavaScript-F7E017?style=for-the-badge&logo=javascript&logoColor=black) – Conversion logic and DOM manipulation
 
 ---
+
+## ✅Learning Objectives
+
+- HTML form handling
+
+- JavaScript conditionals and functions
+
+- Mathematical logic
+
+- DOM manipulation
+
+- Structuring small web projects
+
+- Writing clean, readable code
 
 ## License
 This project is open for learning and personal use.
