@@ -121,5 +121,7 @@ unit-converter/
 
 - Writing clean, readable code
 
+---
+
 ## License
 This project is open for learning and personal use.
