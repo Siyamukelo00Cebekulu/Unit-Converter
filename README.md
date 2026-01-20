@@ -99,9 +99,11 @@ unit-converter/
 
 ## 🧰 Technologies Used
 
-**HTML** – Page structure and forms
-**CSS** – Layout and styling
-![JavaScript](https://img.shields.io/badge/JavaScript-F7E017?style=for-the-badge&logo=javascript&logoColor=black) – Conversion logic and DOM manipulation
+- **HTML** – Page structure and forms
+
+- **CSS** – Layout and styling
+
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7E017?style=for-the-badge&logo=javascript&logoColor=black) – Conversion logic and DOM manipulation
 
 ---
 
