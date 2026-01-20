@@ -21,7 +21,7 @@ This project focuses on practicing core web development fundamentals such as for
 
 ## Supported Unit Conversions
 
-**Length**
+📏**Length**
 
 - Millimeter (mm)
 
@@ -39,7 +39,7 @@ This project focuses on practicing core web development fundamentals such as for
 
 - Mile (mi)
 
-**Weight**
+⚖️**Weight**
 
 - Milligram (mg)
 
@@ -51,7 +51,7 @@ This project focuses on practicing core web development fundamentals such as for
 
 - Pound (lb)
 
-- Temperature
+🌡️**Temperature**
 
 - Celsius (°C)
 
@@ -98,9 +98,11 @@ unit-converter/
 ---
 
 ## 🧰 Technologies Used
+
 **HTML** – Page structure and forms
 **CSS** – Layout and styling
-**JavaScript** – Conversion logic and DOM manipulation
+![JavaScript](https://img.shields.io/badge/JavaScript-F7E017?style=for-the-badge&logo=javascript&logoColor=black) – Conversion logic and DOM manipulation
+
 ---
 
 ## License
