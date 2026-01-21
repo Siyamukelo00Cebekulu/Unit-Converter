@@ -66,14 +66,25 @@ This project focuses on practicing core web development fundamentals such as for
 unit-converter/
 │
 ├── index.html
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
+├── style.css
+├── script.js
 └── README.md
 ```
+---
+
+## ▶️ How to Run
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/your-username/unit-converter.git
+```
+
+2. **Open the project folder.**
+
+3. **Open index.html in your browser.**
+
+No server or database setup required.
+
 ---
 
 ## ▶🖥️How the Application Works

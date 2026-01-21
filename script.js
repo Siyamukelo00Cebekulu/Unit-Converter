@@ -31,6 +31,10 @@ const units = {
   },
 };
 
+
+/* -------------------------
+   UNIT LOADING
+-------------------------- */
 function loadUnits(type) {
   fromUnit.innerHTML = "";
   toUnit.innerHTML = "";
@@ -50,6 +54,10 @@ function loadUnits(type) {
   inputLabel.textContent = `Enter the ${type} to convert`;
 }
 
+
+/* -------------------------
+   TAB SETUP
+-------------------------- */
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
     tabs.forEach((t) => t.classList.remove("active"));
@@ -60,7 +68,10 @@ tabs.forEach((tab) => {
   });
 });
 
-// default load
+
+/* -------------------------
+   DEFAULT LOAD
+-------------------------- */
 loadUnits("length");
 
 
@@ -105,6 +116,10 @@ const unitSymbols = {
 
 const errorMsg = document.getElementById("errorMsg");
 
+
+/* -------------------------
+   FORM SUBMIT
+-------------------------- */
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
