@@ -79,3 +79,25 @@ button {
 button:hover {
     background: #f2f2f2;
 }
+
+.hidden {
+    display: none;
+}
+
+.result-text {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+#errorMsg {
+    color: #c00000;
+    font-size: 16px;
+    min-height: 20px;
+}
+
+input:focus,
+select:focus,
+button:focus {
+    outline: 3px solid #2f6bff;
+}

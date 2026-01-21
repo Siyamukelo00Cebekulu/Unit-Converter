@@ -9,31 +9,50 @@
 
 <div class="converter-container">
 
-    <h1>Unit Converter</h1>
+    <!-- FORM VIEW -->
+    <div id="formView">
 
-    <div class="tabs">
-        <span class="tab active" data-type="length">Length</span>
-        <span class="tab" data-type="weight">Weight</span>
-        <span class="tab" data-type="temperature">Temperature</span>
+        <h1>Unit Converter</h1>
+
+        <div class="tabs" role="tablist">
+            <span class="tab active" role="tab" tabindex="0" data-type="length">Length</span>
+            <span class="tab" role="tab" tabindex="0" data-type="weight">Weight</span>
+            <span class="tab" role="tab" tabindex="0" data-type="temperature">Temperature</span>
+        </div>
+
+        <form class="converter-form" id="converterForm" novalidate>
+
+            <label for="valueInput" id="input-label">
+                Enter the length to convert
+            </label>
+            <input type="number" id="valueInput" aria-required="true">
+
+            <label for="fromUnit">Unit to convert from</label>
+            <select id="fromUnit"></select>
+
+            <label for="toUnit">Unit to convert to</label>
+            <select id="toUnit"></select>
+
+            <p id="errorMsg" aria-live="assertive"></p>
+
+            <button type="submit">Convert</button>
+
+        </form>
+
     </div>
 
-    <form class="converter-form">
+    <!-- RESULT VIEW -->
+    <div id="resultView" class="hidden">
 
-        <label id="input-label">Enter the length to convert</label>
-        <input type="number" id="valueInput">
+        <h2>Result of your calculation</h2>
 
-        <label>Unit to convert from</label>
-        <select id="fromUnit"></select>
+        <div class="result-text" id="resultText" aria-live="polite"></div>
 
-        <label>Unit to convert to</label>
-        <select id="toUnit"></select>
+        <button id="resetBtn">Reset</button>
 
-        <button type="submit">Convert</button>
-
-    </form>
+    </div>
 
 </div>
-
 <script src="script.js"></script>
 </body>
 </html>
