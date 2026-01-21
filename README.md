@@ -66,10 +66,6 @@ This project focuses on practicing core web development fundamentals such as for
 unit-converter/
 │
 ├── index.html
-├── length.html
-├── weight.html
-├── temperature.html
-│
 ├── css/
 │   └── style.css
 │

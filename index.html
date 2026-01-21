@@ -12,45 +12,26 @@
         <h1>Unit Converter</h1>
 
         <div class="tabs">
-            <span class="active">Length</span>
-            <span>Weight</span>
-            <span>Temperature</span>
-        </div>
+        <span class="tab active" data-type="length">Length</span>
+        <span class="tab" data-type="weight">Weight</span>
+        <span class="tab" data-type="temperature">Temperature</span>
+    </div>
 
-        <form class="converter-form">
+       <form class="converter-form">
 
-            <label>Enter the length to convert</label>
-            <input type="number" placeholder="">
+        <label id="input-label">Enter the length to convert</label>
+        <input type="number" id="valueInput">
 
-            <label>Unit to convert from</label>
-            <select>
-                <option value="">Select unit</option>
-                <option>Millimeter</option>
-                <option>Centimeter</option>
-                <option>Meter</option>
-                <option>Kilometer</option>
-                <option>Inch</option>
-                <option>Foot</option>
-                <option>Yard</option>
-                <option>Mile</option>
-            </select>
+        <label>Unit to convert from</label>
+        <select id="fromUnit"></select>
 
-            <label>Unit to convert to</label>
-            <select>
-                <option value="">Select unit</option>
-                <option>Millimeter</option>
-                <option>Centimeter</option>
-                <option>Meter</option>
-                <option>Kilometer</option>
-                <option>Inch</option>
-                <option>Foot</option>
-                <option>Yard</option>
-                <option>Mile</option>
-            </select>
+        <label>Unit to convert to</label>
+        <select id="toUnit"></select>
 
-            <button type="submit">Convert</button>
+        <button type="submit">Convert</button>
 
-        </form>
+    </form>
+
 
     </div>
 
